@@ -264,5 +264,129 @@ header {
 .avis_icon_container{
     width: 100%;
     display: flex;
-
 }
+.paiment_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.paiment_container_title{
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.paiment_container_title h2{
+    font-size: 42px;
+    color: #1e3a5f;
+    margin-bottom: 25px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+}
+.purpel_label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10px ;
+    left: 200px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #6e48e1;
+}
+.pricing_card{
+    display: flex;
+    width: 800px;
+    padding: 15px 10px ;
+    border: 2px solid;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.tin_part_container{
+    margin-top: 50px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.commencer_button_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 780px;
+    padding: 10px;
+}
+.commencer_button_container button{
+    width: 100%;
+    height: 45px;
+    border-radius: 30px;
+    background : linear-gradient(to bottom, #3b7dbd, #7b68ee);
+    border: none;
+    margin-top: 20px;
+}
+
+footer {
+            background-color: #1a2742;
+            color: #ffffff;
+            padding: 60px 40px 40px;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 60px;
+            position: relative;
+        }
+
+        .footer-column h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+
+        .footer-column ul {
+            list-style: none;
+        }
+
+        .footer-column ul li {
+            margin-bottom: 12px;
+        }
+
+        .footer-column ul li a {
+            color: #b8c5d6;
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.3s ease;
+        }
+
+        .footer-column ul li a:hover {
+            color: #ffffff;
+        }
+
+        .social-icons {
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        .social-icons a {
+            color: #ffffff;
+            font-size: 20px;
+            transition: opacity 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            opacity: 0.7;
+        }
